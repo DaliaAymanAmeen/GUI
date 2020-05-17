@@ -1,0 +1,11 @@
+debug/features.o
+debug/main.o
+debug/mainwindow.o
+debug/pch.o
+debug/prettifing.o
+debug/xml_cutter.o
+debug/xml_tree.o
+debug/qrc_Resources.o
+debug/moc_features.o
+debug/moc_mainwindow.o
+debug/moc_prettifing.o

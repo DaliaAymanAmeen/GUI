@@ -1,0 +1,11 @@
+release/features.o
+release/main.o
+release/mainwindow.o
+release/pch.o
+release/prettifing.o
+release/xml_cutter.o
+release/xml_tree.o
+release/qrc_Resources.o
+release/moc_features.o
+release/moc_mainwindow.o
+release/moc_prettifing.o

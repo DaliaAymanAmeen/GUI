@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Features</class>
+ <widget class="QDialog" name="Features">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>251</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="Prettifing">
+      <property name="text">
+       <string>Prettifing</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="JSON">
+      <property name="text">
+       <string>JSON</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="queries">
+      <property name="text">
+       <string>Queries </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
