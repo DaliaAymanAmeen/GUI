@@ -17,7 +17,7 @@ Features::Features(QWidget *parent) :
 
 
     ui->setupUi(this);
-    QPixmap bkgnd(":/img/img/background-ppt-background-2003905.jpg");
+    QPixmap bkgnd("");
     bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
     QPalette palette;
     palette.setBrush(QPalette::Background, bkgnd);
@@ -33,7 +33,13 @@ Features::~Features()
 
 
 
-void Features::on_Prettifing_clicked()
+
+void Features::on_toolButton_clicked()
+{
+     QMessageBox::about(this, "Test","test" );
+}
+
+void Features::on_toolButton_3_clicked()
 {
     Prettifing Prettifing ;
     Prettifing.setModal(true);

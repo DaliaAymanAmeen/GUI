@@ -13,38 +13,121 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>50</y>
+     <x>10</x>
+     <y>0</y>
      <width>251</width>
-     <height>311</height>
+     <height>20</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QPushButton" name="Prettifing">
-      <property name="text">
-       <string>Prettifing</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="JSON">
-      <property name="text">
-       <string>JSON</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="queries">
-      <property name="text">
-       <string>Queries </string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="text">
+    <string>Features:</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>140</y>
+     <width>251</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>251</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-image: url(:/img/img/jar-file.png);</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>140</y>
+     <width>191</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/img/file.png);</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/img/document.png);</string>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>370</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>    Error correction &amp; Formatting</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>370</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>                    Queries </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>370</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>            Convert to JSON</string>
+   </property>
   </widget>
  </widget>
  <resources/>

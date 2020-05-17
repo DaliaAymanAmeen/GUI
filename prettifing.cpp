@@ -26,7 +26,7 @@ Prettifing::~Prettifing()
 
 void Prettifing::on_fromatting_clicked()
 {
-    QFile file ("C:/Users/user/Documents/build-test-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/FinalOutput.txt");
+    QFile file ("FinalOutput.txt");
 
     if (!file.open(QFile::ReadOnly | QFile::Text))
     {
@@ -38,3 +38,7 @@ void Prettifing::on_fromatting_clicked()
     ui->fromatting_2->setPlainText(text);
     file.close();
 }
+
+
+
+

@@ -10,6 +10,8 @@
 #include <stack>
 #include <sstream>
 #include <chrono>
+#include<QFileDialog>
+#include <QDir>
 #include <features.h>
 #include <prettifing.h>
 #include<vector>
@@ -25,7 +27,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
      ui->setupUi(this);
-     QPixmap bkgnd(":/img/img/background-ppt-background-2003905.jpg");
+     QPixmap bkgnd("");
      bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
      QPalette palette;
      palette.setBrush(QPalette::Background, bkgnd);
@@ -124,6 +126,23 @@ void pp(Node * k, xml_tree tree,int m ) {
 }
 
 
+//to select file
+
+QString file_name;
+void MainWindow::on_pushButton_2_clicked()
+{
+    QString filter = "All File (*.*) ;; Text File (*.txt)  ;; XML File (*.xml) "  ;
+    file_name = QFileDialog :: getOpenFileName(this,"Select a file",QDir::homePath(), filter);
+    QMessageBox::information(this, "Test",file_name );
+
+}
+
+
+
+
+
+//run
+
 void MainWindow::on_pushButton_clicked()
 {
          string input;
@@ -134,7 +153,7 @@ void MainWindow::on_pushButton_clicked()
         ofstream final;
         final.open("FinalOutput.txt");
         auto start = high_resolution_clock::now();
-        xml_cutter("tests.txt");//function to make each xml tag in seprate line (the function take xml file as an inpput)
+        xml_cutter(file_name.toStdString());//function to make each xml tag in seprate line (the function take xml file as an inpput)
         // start of checking and correcting errors in the xml file
         ifstream infile;
         infile.open("output.txt");
@@ -163,16 +182,9 @@ void MainWindow::on_pushButton_clicked()
                 if (line[line.length() - 2] == '-' && line[line.length() - 1] == '>') continue;
             }
 
-            if (line[0] == '<' && line[1] != '/') //opening tag
-
-            {
-                if (line[1] == '!' || line[1] == '?')  continue;  //comment tags (msh batba3hom khales)
-                s1.push(line);  //by7ot el line kolo
-                outfile << s1.top() << endl; //batba3 el opening tag
-            }
 
 
-            else if (line[0] != '<') //data
+             if (line[0] != '<') //data
             {
 
                 data = 1;
@@ -192,7 +204,18 @@ void MainWindow::on_pushButton_clicked()
             }
 
 
-            else if (line[0] == '<' && line[1] == '/')  //closing tag
+
+             if (line[0] == '<' && line[1] != '/') //opening tag
+
+             {
+                 if (line[1] == '!' || line[1] == '?')  continue;  //comment tags (msh batba3hom khales)
+                 s1.push(line);  //by7ot el line kolo
+                 outfile << s1.top() << endl; //batba3 el opening tag
+                 continue;
+             }
+
+
+             if (line[0] == '<' && line[1] == '/')  //closing tag
             {
                 if (s1.empty()) continue;  //law el stack kan fadi
                 if (data) { data = 0; continue; } //law kan el satr eli abli data
@@ -209,7 +232,6 @@ void MainWindow::on_pushButton_clicked()
 
 
         }
-
 
         //law el closing tags khelset w lsa feh opening tags
         string line;
@@ -313,6 +335,8 @@ void MainWindow::on_pushButton_clicked()
         features.exec();
 
 }
+
+
 
 
 

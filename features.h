@@ -18,6 +18,10 @@ public:
 private slots:
     void on_Prettifing_clicked();
 
+    void on_toolButton_clicked();
+
+    void on_toolButton_3_clicked();
+
 private:
     Ui::Features *ui;
 };

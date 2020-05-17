@@ -128,6 +128,9 @@ compiler_rcc_clean:
 	-$(DEL_FILE) debug/qrc_Resources.cpp
 debug/qrc_Resources.cpp: Resources.qrc \
 		D:/DALIAA/QT/5.14.2/mingw73_32/bin/rcc.exe \
+		img/jar-file.png \
+		img/document.png \
+		img/file.png \
 		img/background-ppt-background-2003905.jpg \
 		img/WhatsApp\ Image\ 2020-05-17\ at\ 07.35.51.jpeg \
 		img/51303ee1-c6fc-4b5a-9026-271fe2a258f3.jpg
@@ -620,6 +623,11 @@ debug/features.o: features.cpp features.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qdesktopwidget.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtGui/qguiapplication.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtGui/qinputmethod.h \
+		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/QGroupBox \
+		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qgroupbox.h \
+		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qframe.h \
+		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/QLabel \
+		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qlabel.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/QPushButton \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qpushbutton.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qabstractbutton.h \
@@ -629,7 +637,6 @@ debug/features.o: features.cpp features.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qlayout.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qlayoutitem.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qgridlayout.h \
-		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/QWidget \
 		mainwindow.h \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/QMainWindow \
 		D:/DALIAA/QT/5.14.2/mingw73_32/include/QtWidgets/qmainwindow.h \

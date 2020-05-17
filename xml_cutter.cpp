@@ -55,3 +55,5 @@ void xml_cutter(string fi)
     infile.close();
     outfile.close();
 }
+
+

@@ -60,7 +60,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "Run", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Select", nullptr));
     } // retranslateUi
 
 };
