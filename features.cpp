@@ -17,7 +17,7 @@ Features::Features(QWidget *parent) :
 
 
     ui->setupUi(this);
-    QPixmap bkgnd("");
+    QPixmap bkgnd(":/img/img/photo-1483401757487-2ced3fa77952.jpg");
     bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
     QPalette palette;
     palette.setBrush(QPalette::Background, bkgnd);
@@ -34,15 +34,23 @@ Features::~Features()
 
 
 
-void Features::on_toolButton_clicked()
+
+
+void Features::on_pushButton_clicked()
+{
+
+    Prettifing Prettifing ;
+    Prettifing.setModal(true);
+    Prettifing.exec();
+}
+
+void Features::on_pushButton_2_clicked() //Qu
 {
      QMessageBox::about(this, "Test","test" );
 }
 
-void Features::on_toolButton_3_clicked()
-{
-    Prettifing Prettifing ;
-    Prettifing.setModal(true);
-    Prettifing.exec();
 
+void Features::on_pushButton_4_clicked()
+{
+    QMessageBox::about(this, "Test","test" );
 }

@@ -18,7 +18,6 @@
 #include "xml_cutter.h"
 
 using namespace std::chrono;
-
 using namespace std;
 #include <QTextStream>
 
@@ -27,7 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
      ui->setupUi(this);
-     QPixmap bkgnd("");
+     QPixmap bkgnd(":/img/img/photo-1483401757487-2ced3fa77952.jpg");
      bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
      QPalette palette;
      palette.setBrush(QPalette::Background, bkgnd);

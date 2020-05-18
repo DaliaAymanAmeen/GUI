@@ -1,10 +1,12 @@
 <RCC>
     <qresource prefix="/img">
-        <file>img/WhatsApp Image 2020-05-17 at 07.35.51.jpeg</file>
-        <file>img/51303ee1-c6fc-4b5a-9026-271fe2a258f3.jpg</file>
-        <file>img/background-ppt-background-2003905.jpg</file>
         <file>img/document.png</file>
         <file>img/file.png</file>
         <file>img/jar-file.png</file>
+        <file>img/500_F_177067467_Xy3aWsMVQP2Sif8StiIViGzdgz3f2ppQ.jpg</file>
+        <file>img/interface.png</file>
+        <file>img/photo-1483401757487-2ced3fa77952.jpg</file>
+        <file>img/1.png</file>
+        <file>img/2.png</file>
     </qresource>
 </RCC>

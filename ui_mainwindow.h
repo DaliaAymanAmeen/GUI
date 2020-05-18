@@ -15,6 +15,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QToolButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,6 +26,8 @@ public:
     QWidget *centralwidget;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
+    QToolButton *toolButton;
+    QToolButton *toolButton_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -38,10 +41,18 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(260, 310, 268, 23));
+        pushButton->setGeometry(QRect(250, 500, 251, 41));
         pushButton_2 = new QPushButton(centralwidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(50, 240, 75, 23));
+        pushButton_2->setGeometry(QRect(40, 340, 111, 31));
+        toolButton = new QToolButton(centralwidget);
+        toolButton->setObjectName(QString::fromUtf8("toolButton"));
+        toolButton->setGeometry(QRect(30, 190, 131, 131));
+        toolButton->setStyleSheet(QString::fromUtf8("border-image: url(:/img/img/interface.png);"));
+        toolButton_2 = new QToolButton(centralwidget);
+        toolButton_2->setObjectName(QString::fromUtf8("toolButton_2"));
+        toolButton_2->setGeometry(QRect(550, 140, 231, 271));
+        toolButton_2->setStyleSheet(QString::fromUtf8("border-image: url(:/img/img/1.png);"));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -59,8 +70,10 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Run", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Select", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "Done", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Select File", nullptr));
+        toolButton->setText(QCoreApplication::translate("MainWindow", "...", nullptr));
+        toolButton_2->setText(QString());
     } // retranslateUi
 
 };

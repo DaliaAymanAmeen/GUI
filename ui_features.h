@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QToolButton>
 
 QT_BEGIN_NAMESPACE
@@ -24,9 +25,9 @@ public:
     QToolButton *toolButton;
     QToolButton *toolButton_2;
     QToolButton *toolButton_3;
-    QLabel *label_2;
-    QLabel *label_3;
-    QLabel *label_4;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_4;
 
     void setupUi(QDialog *Features)
     {
@@ -50,18 +51,15 @@ public:
         toolButton_3->setObjectName(QString::fromUtf8("toolButton_3"));
         toolButton_3->setGeometry(QRect(20, 170, 201, 181));
         toolButton_3->setStyleSheet(QString::fromUtf8("border-image: url(:/img/img/document.png);"));
-        label_2 = new QLabel(Features);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(40, 370, 161, 51));
-        label_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
-        label_3 = new QLabel(Features);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(300, 370, 161, 51));
-        label_3->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
-        label_4 = new QLabel(Features);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(580, 370, 161, 51));
-        label_4->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        pushButton = new QPushButton(Features);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(30, 390, 161, 41));
+        pushButton_2 = new QPushButton(Features);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(300, 390, 161, 41));
+        pushButton_4 = new QPushButton(Features);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setGeometry(QRect(570, 390, 161, 41));
 
         retranslateUi(Features);
 
@@ -75,9 +73,9 @@ public:
         toolButton->setText(QString());
         toolButton_2->setText(QString());
         toolButton_3->setText(QString());
-        label_2->setText(QCoreApplication::translate("Features", "    Error correction & Formatting", nullptr));
-        label_3->setText(QCoreApplication::translate("Features", "                    Queries ", nullptr));
-        label_4->setText(QCoreApplication::translate("Features", "            Convert to JSON", nullptr));
+        pushButton->setText(QCoreApplication::translate("Features", " Error correction And Prettifing", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("Features", " Queries ", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("Features", "Convert To JSON", nullptr));
     } // retranslateUi
 
 };

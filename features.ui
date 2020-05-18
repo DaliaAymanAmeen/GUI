@@ -81,52 +81,43 @@ border-image: url(:/img/img/jar-file.png);</string>
     <string> </string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>370</y>
+     <x>30</x>
+     <y>390</y>
      <width>161</width>
-     <height>51</height>
+     <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
-   </property>
    <property name="text">
-    <string>    Error correction &amp; Formatting</string>
+    <string> Error correction And Prettifing</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
      <x>300</x>
-     <y>370</y>
+     <y>390</y>
      <width>161</width>
-     <height>51</height>
+     <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
-   </property>
    <property name="text">
-    <string>                    Queries </string>
+    <string> Queries </string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
+  <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>580</x>
-     <y>370</y>
+     <x>570</x>
+     <y>390</y>
      <width>161</width>
-     <height>51</height>
+     <height>41</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
-   </property>
    <property name="text">
-    <string>            Convert to JSON</string>
+    <string>Convert To JSON</string>
    </property>
   </widget>
  </widget>
