@@ -60,7 +60,7 @@ string tabs(int i) {
 
 void print_all_children(Node* n, xml_tree tree, ofstream &final,int i) {
     //function to print all tags with format
-    final <<tabs( i) << "<" << tree.get_tag(n) << (tree.get_attributes(n) == "" ? ">" :" "+ tree.get_attributes(n)) << endl;//prints the opening tag
+    final <<tabs( i) << "<" << tree.get_tag(n) << (tree.get_attributes(n) == "" ? ">" :" "+ tree.get_attributes(n)+">") << endl;//prints the opening tag
 
     if (tree.get_data(n)!="") //prints data if exists
     {
@@ -72,13 +72,13 @@ void print_all_children(Node* n, xml_tree tree, ofstream &final,int i) {
         if (tree.get_attributes(n) == "") //if no children exists and there is no attributes ,print closing tag
         {
             //closing tags
-            final <<tabs( i)  << "<" << tree.get_tag(n) << "/>" << endl;
+            final <<tabs( i)  << "</" << tree.get_tag(n) << ">" << endl;
             return;
         }
         else {
             string att=tree.get_attributes(n);
             if (att[att.length() - 2 ] != '/') {
-                final << tabs(i) << "<" << tree.get_tag(n) << "/>" << endl;
+                final << tabs(i) << "</" << tree.get_tag(n) << ">" << endl;
                 return;
             }
         }
@@ -92,13 +92,13 @@ void print_all_children(Node* n, xml_tree tree, ofstream &final,int i) {
         }
         if (tree.get_attributes(n) == "") {
             //closing tags for parent nodes
-            final << tabs(i-1) << "<" << tree.get_tag(n) << "/>" << endl;
+            final << tabs(i-1) << "</" << tree.get_tag(n) << ">" << endl;
 
         }
         else {
             string att = tree.get_attributes(n);
             if (att.length()>3 && att[att.length() - 2] != '/') {
-                final << tabs(i-1) << "<" << tree.get_tag(n) << "/>" << endl;
+                final << tabs(i-1) << "</" << tree.get_tag(n) << ">" << endl;
                 return;
             }
         }
