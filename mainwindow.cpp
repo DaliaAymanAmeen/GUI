@@ -214,7 +214,11 @@ void MainWindow::on_pushButton_clicked()
             int data = 0;
             if (line[0] == '<' &&  line[line.length() - 2] == '/')  //case (self closing tag)
             {
-                outfile << line << endl;
+                outfile << line.substr(0,line.length()-2)<<">"<< endl;
+                stringstream str (line);
+                str >> line;
+                outfile << "<" << "/" << line.substr(1) <<">"<<endl;
+
                 continue;
             }
 
@@ -290,8 +294,8 @@ void MainWindow::on_pushButton_clicked()
 
 
         //end of checking and correcting errors
-
         //start of implementing the xml tree from the xml file
+
         inFile.open("output1.txt");
         if (!inFile) {
             cout << "Unable to open file";
@@ -321,7 +325,7 @@ void MainWindow::on_pushButton_clicked()
                     }
                 }
                 string tag = input.substr(1, index - 1);
-                string att = input.substr(index + 1);
+                string att = input.substr(index + 1, (input.size() - index - 2));
                 nodes.push_back(tree.add_node(tag, att));//decalre a new tag
                 if (tags.size() == 0) {
                     tree.add_root(nodes[nodes.size() - 1]);//add thre root to the tree
@@ -330,10 +334,14 @@ void MainWindow::on_pushButton_clicked()
                     tree.add_child(nodes[tags.top()], nodes[nodes.size() - 1]);//add a child to the last opened tag
                 }
                 tags.push(nodes.size() - 1);//add the last opened tag to deal with it to add children or data to it
-                if(input[input.length()-2]=='/')
-                    tags.pop();//self closing tag
 
             }
+
+
+            //if (input[input.length() - 2] == '/')
+                            //tags.pop();//self closing tag
+
+
             //Closing tag
             else if (input[0] == '<' && input[1] == '/')
             {
@@ -372,7 +380,7 @@ void MainWindow::on_pushButton_clicked()
 
 
          num = SetNumber(tree,NoOFSynsets);
-         QMessageBox::about(this, "test", QString::number(num));
+         //QMessageBox::about(this, "test", QString::number(num));
 
 
 

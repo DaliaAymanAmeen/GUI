@@ -91,7 +91,7 @@ border-image: url(:/img/img/jar-file.png);</string>
     </rect>
    </property>
    <property name="text">
-    <string> Error correction And Prettifing</string>
+    <string> Error Correction And Prettifing</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">

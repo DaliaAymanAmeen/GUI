@@ -73,7 +73,7 @@ public:
         toolButton->setText(QString());
         toolButton_2->setText(QString());
         toolButton_3->setText(QString());
-        pushButton->setText(QCoreApplication::translate("Features", " Error correction And Prettifing", nullptr));
+        pushButton->setText(QCoreApplication::translate("Features", " Error Correction And Prettifing", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Features", " Queries ", nullptr));
         pushButton_4->setText(QCoreApplication::translate("Features", "Convert To JSON", nullptr));
     } // retranslateUi

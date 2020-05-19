@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <string>
 #include <fstream>
 #include "xml_cutter.h"
@@ -135,8 +135,8 @@ void print_node( Node* node_ptr,int &tab,int repeat,int repeat_max){
         /*else
             json<<*/
 
-    }if(node_ptr->att.size() || node_ptr->data.size()){
-        if(!node_ptr->children.size()){
+   // }if(node_ptr->att.size() || node_ptr->data.size()){
+      /*  if(!node_ptr->children.size()){
                 for (int i = 0; i < tab; i++) {
                 json << "\t";
             }
@@ -208,4 +208,4 @@ void xml_to_json(xml_tree tree){
 
 }
 
-
+*/

@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Number of sunset</string>
+    <string>Number of synsets</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="textEdit">
@@ -42,7 +42,7 @@
      <x>210</x>
      <y>230</y>
      <width>141</width>
-     <height>191</height>
+     <height>251</height>
     </rect>
    </property>
   </widget>
@@ -52,7 +52,7 @@
      <x>460</x>
      <y>230</y>
      <width>141</width>
-     <height>191</height>
+     <height>251</height>
     </rect>
    </property>
   </widget>

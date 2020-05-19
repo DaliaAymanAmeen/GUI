@@ -49,10 +49,10 @@ public:
         textEdit->setGeometry(QRect(450, 20, 151, 51));
         textEdit_2 = new QTextEdit(Queries);
         textEdit_2->setObjectName(QString::fromUtf8("textEdit_2"));
-        textEdit_2->setGeometry(QRect(210, 230, 141, 191));
+        textEdit_2->setGeometry(QRect(210, 230, 141, 251));
         textEdit_3 = new QTextEdit(Queries);
         textEdit_3->setObjectName(QString::fromUtf8("textEdit_3"));
-        textEdit_3->setGeometry(QRect(460, 230, 141, 191));
+        textEdit_3->setGeometry(QRect(460, 230, 141, 251));
         widget = new QWidget(Queries);
         widget->setObjectName(QString::fromUtf8("widget"));
         widget->setGeometry(QRect(460, 130, 141, 81));
@@ -94,7 +94,7 @@ public:
     void retranslateUi(QDialog *Queries)
     {
         Queries->setWindowTitle(QCoreApplication::translate("Queries", "Dialog", nullptr));
-        pushButton->setText(QCoreApplication::translate("Queries", "Number of sunset", nullptr));
+        pushButton->setText(QCoreApplication::translate("Queries", "Number of synsets", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Queries", "Hypernyms", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Queries", "Definition", nullptr));
     } // retranslateUi
