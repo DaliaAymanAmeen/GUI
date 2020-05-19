@@ -1,9 +1,9 @@
-
-#include "pch.h"
 #include <iostream>
 #include <string>
 #include <fstream>
-#include"xml_cutter.h"
+#include "xml_cutter.h"
+#include <json.h>
+#include "pch.h"
 
 
 using namespace std;
@@ -55,5 +55,3 @@ void xml_cutter(string fi)
     infile.close();
     outfile.close();
 }
-
-

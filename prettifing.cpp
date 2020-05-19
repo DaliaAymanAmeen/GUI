@@ -6,6 +6,8 @@
 #include <mainwindow.h>
 #include<features.h>
 
+
+
 Prettifing::Prettifing(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Prettifing)
@@ -38,7 +40,6 @@ void Prettifing::on_fromatting_clicked()
     ui->fromatting_2->setPlainText(text);
     file.close();
 }
-
 
 
 

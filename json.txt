@@ -1,0 +1,1089 @@
+{
+	"data":{
+		"synsets":[
+			{
+				"synset":[
+					{
+						"def":"(usually followed by `to') having the necessary means or skill or know-how or authority to do something",
+					"example":[
+						"able to swim",
+					"she was able to program her computer",
+				"we were at last able to buy a car",
+			"able to get a grant for the project"
+		],
+		"lex_filenum":"00",
+	"pointer":[
+{
+"refs":"a00002098" ,
+		" source":"1" ,
+		" target":"1">,
+		"text":"Antonym"}
+,
+	{
+"refs":"n05200169 n05616246">,
+	"text":"Attribute"}
+,
+{
+"refs":"n05616246 n05200169" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derivationally related form"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"able"}
+,
+"id":"a00001740" ,
+" type":"a">
+}
+,{
+"def":"having an open or latticed or porous structure",
+"lex_filenum":"00",
+"pointer":[
+{
+"refs":"n06057539">,
+"text":"Domain of synset - TOPIC"}
+,
+{
+"refs":"a00327031">,
+"text":"Similar to"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"cancellate"}
+,
+{
+"lex_id":"0">,
+"text":"cancellated"}
+,
+{
+"lex_id":"0">,
+"text":"cancellous"}
+
+],
+"id":"a00327541" ,
+" type":"s">
+}
+,{
+"def":[
+"provided with or as if with a crown or a crown as specified",
+"often used in combination"
+],
+"example":[
+"a high-crowned hat",
+"an orange-crowned bird",
+"a crowned signet ring"
+],
+"lex_filenum":"00",
+"pointer":[
+{
+"refs":"a00654125 a00654315 a00654394 a00654596 a00654685">,
+"text":"Similar to"}
+,
+{
+"refs":"a00654829" ,
+" source":"1" ,
+" target":"1">,
+"text":"Antonym"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"crowned"}
+,
+"id":"a00653822" ,
+" type":"a">
+}
+,{
+"def":"too deep to determine the depth of",
+"lex_filenum":"00",
+"pointer":{
+"refs":"a00994882">,
+"text":"Similar to"}
+,
+"word":{
+"lex_id":"0">,
+"text":"unsoundable"}
+,
+"id":"a00995027" ,
+" type":"s">
+}
+,{
+"def":"combining into a single unit",
+"lex_filenum":"00",
+"pointer":[
+{
+"refs":"v00242747 v00242580" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"a01330986">,
+"text":"Similar to"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"unifying"}
+,
+{
+"lex_id":"0">,
+"text":"consolidative"}
+
+],
+"id":"a01331540" ,
+" type":"s">
+}
+,{
+"def":"arranged without spaces between",
+"lex_filenum":"00",
+"pointer":[
+{
+"refs":"a01656520">,
+"text":"Similar to"}
+,
+{
+"refs":"a01655783" ,
+" source":"1" ,
+" target":"1">,
+"text":"Antonym"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"unspaced"}
+,
+"id":"a01656416" ,
+" type":"a">
+}
+,{
+"def":"not reserved in advance",
+"lex_filenum":"00",
+"pointer":{
+"refs":"a01988724">,
+"text":"Similar to"}
+,
+"word":{
+"lex_id":"0">,
+"text":"unbooked"}
+,
+"id":"a01988934" ,
+" type":"s">
+}
+,{
+"def":[
+"conforming to or constituting a standard of measurement or value",
+"or of the usual or regularized or accepted kind"
+],
+"example":[
+"windows of standard width",
+"standard sizes",
+"the standard fixtures",
+"standard brands",
+"standard operating procedure"
+],
+"lex_filenum":"00",
+"pointer":[
+{
+"refs":"a02296415 a02296632 a02296824 a02296950 a02297089">,
+"text":"Similar to"}
+,
+{
+"refs":"a01593649">,
+"text":"Also see"}
+,
+{
+"refs":"n00033615">,
+"text":"Attribute"}
+,
+{
+"refs":"a02297166" ,
+" source":"1" ,
+" target":"1">,
+"text":"Antonym"}
+
+],
+"word":{
+"lex_id":"2">,
+"text":"standard"}
+,
+"id":"a02295998" ,
+" type":"a">
+}
+,{
+"def":"related to or concerned with alchemy",
+"lex_filenum":"01",
+"pointer":[
+{
+"refs":"n05778749" ,
+" source":"2" ,
+" target":"1">,
+"text":"Pertainym (pertains to noun)"}
+,
+{
+"refs":"n05778749" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"n05778749" ,
+" source":"1" ,
+" target":"1">,
+"text":"Pertainym (pertains to noun)"}
+,
+{
+"refs":"n05778749" ,
+" source":"2" ,
+" target":"1">,
+"text":"Derivationally related form"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"alchemical"}
+,
+{
+"lex_id":"0">,
+"text":"alchemic"}
+
+],
+"id":"a02610603" ,
+" type":"a">
+}
+,{
+"def":"relating to or marked by communism",
+"example":[
+"Communist Party",
+"communist governments",
+"communistic propaganda"
+],
+"lex_filenum":"01",
+"pointer":[
+{
+"refs":"n06214744" ,
+" source":"2" ,
+" target":"1">,
+"text":"Pertainym (pertains to noun)"}
+,
+{
+"refs":"n06214744" ,
+" source":"1" ,
+" target":"1">,
+"text":"Pertainym (pertains to noun)"}
+,
+{
+"refs":"n08365855 n06214744" ,
+" source":"2" ,
+" target":"1">,
+"text":"Derivationally related form"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"communistic"}
+,
+{
+"lex_id":"0">,
+"text":"communist"}
+
+],
+"id":"a02874876" ,
+" type":"a">
+}
+],
+"source":"dict/data.adj" ,
+" xml:base":"data.adj.xml">
+}
+,{
+"synset":[
+{
+"def":"without musical accompaniment",
+"example":"they performed a cappella",
+"lex_filenum":"02",
+"word":{
+"lex_id":"0">,
+"text":"a cappella"}
+,
+"id":"r00001740" ,
+" type":"r">
+}
+,{
+"def":"much less",
+"example":"she can't boil potatoes, let alone cook a meal",
+"lex_filenum":"02",
+"word":[
+{
+"lex_id":"0">,
+"text":"let alone"}
+,
+{
+"lex_id":"0">,
+"text":"not to mention"}
+
+],
+"id":"r00063369" ,
+" type":"r">
+}
+,{
+"def":"at the same time",
+"example":"we graduated together",
+"lex_filenum":"02",
+"word":{
+"lex_id":"0">,
+"text":"together"}
+,
+"id":"r00116510" ,
+" type":"r">
+}
+,{
+"def":"in a gay manner",
+"example":"the scandals were gaily diverting",
+"lex_filenum":"02",
+"pointer":{
+"refs":"a01367431" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derived from adjective"}
+,
+"word":{
+"lex_id":"0">,
+"text":"gaily"}
+,
+"id":"r00163236" ,
+" type":"r">
+}
+,{
+"def":"of a minor or subordinate nature",
+"example":"these magnificent achievements were only incidentally influenced by Oriental models",
+"lex_filenum":"02",
+"pointer":{
+"refs":"a01856929" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derived from adjective"}
+,
+"word":[
+{
+"lex_id":"3">,
+"text":"accidentally"}
+,
+{
+"lex_id":"1">,
+"text":"incidentally"}
+
+],
+"id":"r00212411" ,
+" type":"r">
+}
+,{
+"def":"in a very painful manner",
+"example":"the progress was agonizingly slow",
+"lex_filenum":"02",
+"pointer":[
+{
+"refs":"a01711724" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derived from adjective"}
+,
+{
+"refs":"a01711724" ,
+" source":"3" ,
+" target":"6">,
+"text":"Derived from adjective"}
+,
+{
+"refs":"a01711724" ,
+" source":"2" ,
+" target":"3">,
+"text":"Derived from adjective"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"torturously"}
+,
+{
+"lex_id":"0">,
+"text":"agonizingly"}
+,
+{
+"lex_id":"0">,
+"text":"excruciatingly"}
+
+],
+"id":"r00261389" ,
+" type":"r">
+}
+,{
+"def":"in a dreadful manner",
+"example":"as he looks at the mess he has left behind he must wonder how the Brits so often managed to succeed in the kind of situation where he has so dismally failed",
+"lex_filenum":"02",
+"pointer":{
+"refs":"a01126291" ,
+" source":"2" ,
+" target":"4">,
+"text":"Derived from adjective"}
+,
+"word":[
+{
+"lex_id":"1">,
+"text":"dreadfully"}
+,
+{
+"lex_id":"0">,
+"text":"dismally"}
+
+],
+"id":"r00316486" ,
+" type":"r">
+}
+,{
+"def":"in a manner tending to attract attention",
+"example":"there have been plenty of general declarations about willingness to meet and talk, but conspicuously no mention of time and place",
+"lex_filenum":"02",
+"pointer":[
+{
+"refs":"r00371171" ,
+" source":"1" ,
+" target":"1">,
+"text":"Antonym"}
+,
+{
+"refs":"a02090567" ,
+" source":"1" ,
+" target":"3">,
+"text":"Derived from adjective"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"conspicuously"}
+,
+"id":"r00370920" ,
+" type":"r">
+}
+,{
+"def":"slowing down",
+"example":"this passage should be played rallentando",
+"lex_filenum":"02",
+"pointer":{
+"refs":"n07020895">,
+"text":"Domain of synset - TOPIC"}
+,
+"word":{
+"lex_id":"0">,
+"text":"rallentando"}
+,
+"id":"r00423888" ,
+" type":"r">
+}
+,{
+"def":"to a surpassing degree",
+"example":"she was a surpassingly beautiful woman",
+"lex_filenum":"02",
+"pointer":{
+"refs":"a01676026" ,
+" source":"1" ,
+" target":"5">,
+"text":"Derived from adjective"}
+,
+"word":{
+"lex_id":"0">,
+"text":"surpassingly"}
+,
+"id":"r00471945" ,
+" type":"r">
+}
+],
+"source":"dict/data.adv" ,
+" xml:base":"data.adv.xml">
+}
+,{
+"synset":[
+{
+"def":"that which is perceived or known or inferred to have its own distinct existence (living or nonliving)",
+"lex_filenum":"03",
+"pointer":{
+"refs":"n00001930 n00002137 n04424418">,
+"text":"Hyponym"}
+,
+"word":{
+"lex_id":"0">,
+"text":"entity"}
+,
+"id":"n00001740" ,
+" type":"n">
+}
+,{
+"def":"Old World hawk that feeds on bee larvae and small rodents and reptiles",
+"lex_filenum":"05",
+"pointer":[
+{
+"refs":"n01608086">,
+"text":"Member holonym"}
+,
+{
+"refs":"n01605630">,
+"text":"Hypernym"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"Pernis apivorus"}
+,
+{
+"lex_id":"0">,
+"text":"honey buzzard"}
+
+],
+"id":"n01608265" ,
+" type":"n">
+}
+,{
+"def":"a closed carriage with four wheels and seats for four passengers",
+"lex_filenum":"06",
+"pointer":{
+"refs":"n02968473">,
+"text":"Hypernym"}
+,
+"word":{
+"lex_id":"0">,
+"text":"clarence"}
+,
+"id":"n03037590" ,
+" type":"n">
+}
+,{
+"def":"a junction between two dissimilar metals across which a voltage appears",
+"lex_filenum":"06",
+"pointer":{
+"refs":"n03605915">,
+"text":"Hypernym"}
+,
+"word":{
+"lex_id":"0">,
+"text":"thermojunction"}
+,
+"id":"n04421740" ,
+" type":"n">
+}
+,{
+"def":"the part of algebra that deals with the theory of vectors and vector spaces",
+"lex_filenum":"09",
+"pointer":[
+{
+"refs":"n06000644">,
+"text":"Domain of synset - TOPIC"}
+,
+{
+"refs":"n06013471">,
+"text":"Hyponym"}
+,
+{
+"refs":"n06012726">,
+"text":"Hypernym"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"vector algebra"}
+,
+"id":"n06013298" ,
+" type":"n">
+}
+,{
+"def":"a piece of meat (especially a duck) cooked slowly in its own fat",
+"lex_filenum":"13",
+"pointer":{
+"refs":"n07653394">,
+"text":"Hypernym"}
+,
+"word":{
+"lex_id":"0">,
+"text":"confit"}
+,
+"id":"n07581132" ,
+" type":"n">
+}
+,{
+"def":"a desert in northwestern Nevada",
+"lex_filenum":"15",
+"pointer":[
+{
+"refs":"n09110422">,
+"text":"Part holonym"}
+,
+{
+"refs":"n08505573">,
+"text":"Instance Hypernym"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"Black Rock Desert"}
+,
+"id":"n09168592" ,
+" type":"n">
+}
+,{
+"def":"a defenseless victim",
+"lex_filenum":"18",
+"pointer":{
+"refs":"n10752480">,
+"text":"Hypernym"}
+,
+"word":[
+{
+"lex_id":"0">,
+"text":"sitting duck"}
+,
+{
+"lex_id":"0">,
+"text":"easy mark"}
+
+],
+"id":"n10604089" ,
+" type":"n">
+}
+,{
+"def":"small tree of coastal regions of Old World tropics whose leaves are silvery beneath",
+"lex_filenum":"20",
+"pointer":{
+"refs":"n13109733">,
+"text":"Hypernym"}
+,
+"word":[
+{
+"lex_id":"0">,
+"text":"looking-glass plant"}
+,
+{
+"lex_id":"0">,
+"text":"Heritiera littoralis"}
+
+],
+"id":"n12200143" ,
+" type":"n">
+}
+,{
+"def":"systematic arrangement of all the inflected forms of a word",
+"lex_filenum":"24",
+"pointer":[
+{
+"refs":"a02965552" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"n13803782">,
+"text":"Hypernym"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"paradigm"}
+,
+"id":"n13804375" ,
+" type":"n">
+}
+],
+"source":"dict/data.noun" ,
+" xml:base":"data.noun.xml">
+}
+,{
+"synset":[
+{
+"def":"draw air into, and expel out of, the lungs",
+"example":[
+"I can breathe better when the air is clean",
+"The patient is respiring"
+],
+"frame":[
+{
+"f_num":"8"
+}
+{
+"f_num":"2"
+}
+],
+"lex_filenum":"29",
+"pointer":[
+{
+"refs":"v00004227 v00005041" ,
+" source":"1" ,
+" target":"3">,
+"text":"Also see"}
+,
+{
+"refs":"v00002325 v00002573">,
+"text":"Verb Group"}
+,
+{
+"refs":"v00002573 v00002724 v00002942 v00003826 v00004032 v00004227 v00005041 v00006697 v00007328 v00017031">,
+"text":"Hyponym"}
+,
+{
+"refs":"v00005041 v00004227">,
+"text":"Entailment"}
+,
+{
+"refs":"a03110322 n04080833" ,
+" source":"3" ,
+" target":"1">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"n00831191" ,
+" source":"3" ,
+" target":"3">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"n04250850" ,
+" source":"1" ,
+" target":"5">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"n00831191" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derivationally related form"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"take a breath"}
+,
+{
+"lex_id":"0">,
+"text":"respire"}
+,
+{
+"lex_id":"3">,
+"text":"suspire"}
+,
+{
+"lex_id":"0">,
+"text":"breathe"}
+
+],
+"id":"v00001740" ,
+" type":"v">
+}
+,{
+"def":"stain with a dirty substance, such as soot",
+"frame":[
+{
+"f_num":"11"
+}
+{
+"f_num":"8"
+}
+],
+"lex_filenum":"30",
+"pointer":[
+{
+"refs":"n14793533" ,
+" source":"1" ,
+" target":"4">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"v00286605">,
+"text":"Hypernym"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"smut"}
+,
+"id":"v00286798" ,
+" type":"v">
+}
+,{
+"def":"be seized or affected in a specified way",
+"example":[
+"take sick",
+"be taken drunk"
+],
+"frame":{
+"f_num":"7"
+}
+,
+"lex_filenum":"30",
+"pointer":{
+"refs":"v00149583">,
+"text":"Hypernym"}
+,
+"word":{
+"lex_id":"9">,
+"text":"take"}
+,
+"id":"v00557404" ,
+" type":"v">
+}
+,{
+"def":"evaluate professionally a colleague's work",
+"frame":{
+"f_num":"8"
+}
+,
+"lex_filenum":"32",
+"pointer":[
+{
+"refs":"v00855512">,
+"text":"Hypernym"}
+,
+{
+"refs":"n10526927" ,
+" source":"1" ,
+" target":"2">,
+"text":"Derivationally related form"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"referee"}
+,
+{
+"lex_id":"0">,
+"text":"peer review"}
+
+],
+"id":"v00855794" ,
+" type":"v">
+}
+,{
+"def":"start firing a weapon",
+"frame":[
+{
+"f_num":"22"
+}
+{
+"f_num":"2"
+}
+],
+"lex_filenum":"33",
+"pointer":[
+{
+"refs":"v01134781">,
+"text":"Hypernym"}
+,
+{
+"refs":"n00986938" ,
+" source":"2" ,
+" target":"1">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"n00986938" ,
+" source":"2" ,
+" target":"2">,
+"text":"Derivationally related form"}
+
+],
+"word":[
+{
+"lex_id":"0">,
+"text":"open fire"}
+,
+{
+"lex_id":"1">,
+"text":"fire"}
+
+],
+"id":"v01135783" ,
+" type":"v">
+}
+,{
+"def":"make more compact by or as if by pressing",
+"example":"compress the data",
+"frame":[
+{
+"f_num":"21"
+}
+{
+"f_num":"8"
+}
+{
+"f_num":"11"
+}
+],
+"lex_filenum":"35",
+"pointer":[
+{
+"refs":"n00356790" ,
+" source":"1" ,
+" target":"2">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"v01574571">,
+"text":"Hyponym"}
+,
+{
+"refs":"v01447257">,
+"text":"Entailment"}
+,
+{
+"refs":"v01527271">,
+"text":"Hypernym"}
+,
+{
+"refs":"n00358089" ,
+" source":"2" ,
+" target":"3">,
+"text":"Derivationally related form"}
+,
+{
+"refs":"v01389607" ,
+" source":"1" ,
+" target":"1">,
+"text":"Antonym"}
+,
+{
+"refs":"n00616083" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derivationally related form"}
+
+],
+"word":[
+{
+"lex_id":"1">,
+"text":"compress"}
+,
+{
+"lex_id":"3">,
+"text":"compact"}
+,
+{
+"lex_id":"0">,
+"text":"pack together"}
+
+],
+"id":"v01389329" ,
+" type":"v">
+}
+,{
+"def":"place (candle wicks) into hot, liquid wax",
+"frame":{
+"f_num":"8"
+}
+,
+"lex_filenum":"36",
+"pointer":[
+{
+"refs":"v01653013">,
+"text":"Hypernym"}
+,
+{
+"refs":"n03203089" ,
+" source":"1" ,
+" target":"1">,
+"text":"Derivationally related form"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"dip"}
+,
+"id":"v01660976" ,
+" type":"v">
+}
+,{
+"def":"ski downhill",
+"frame":{
+"f_num":"2"
+}
+,
+"lex_filenum":"38",
+"pointer":[
+{
+"refs":"v01938426">,
+"text":"Hypernym"}
+,
+{
+"refs":"n00523513">,
+"text":"Domain of synset - TOPIC"}
+
+],
+"word":{
+"lex_id":"0">,
+"text":"schuss"}
+,
+"id":"v01938942" ,
+" type":"v">
+}
+,{
+"def":"purchase",
+"example":"What did you get at the toy store?",
+"frame":{
+"f_num":"8"
+}
+,
+"lex_filenum":"40",
+"pointer":[
+{
+"refs":"v02207206">,
+"text":"Hypernym"}
+,
+{
+"refs":"n01090446">,
+"text":"Domain of synset - TOPIC"}
+,
+{
+"refs":"n00041899" ,
+" source":"1" ,
+" target":"2">,
+"text":"Derivationally related form"}
+
+],
+"word":{
+"lex_id":"13">,
+"text":"get"}
+,
+"id":"v02208265" ,
+" type":"v">
+}
+,{
+"def":"marry an unsuitable partner",
+"frame":{
+"f_num":"2"
+}
+,
+"lex_filenum":"41",
+"pointer":{
+"refs":"v02488834">,
+"text":"Hypernym"}
+,
+"word":{
+"lex_id":"0">,
+"text":"mismarry"}
+,
+"id":"v02489363" ,
+" type":"v">
+}
+],
+"source":"dict/data.verb" ,
+" xml:base":"data.verb.xml">
+}
+],
+"version":"3.0">
+}
+}

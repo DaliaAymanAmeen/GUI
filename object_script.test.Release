@@ -1,11 +1,16 @@
 release/features.o
+release/json.o
 release/main.o
 release/mainwindow.o
 release/pch.o
 release/prettifing.o
+release/queries.o
 release/xml_cutter.o
+release/xml_to_Json.o
 release/xml_tree.o
 release/qrc_Resources.o
 release/moc_features.o
+release/moc_json.o
 release/moc_mainwindow.o
 release/moc_prettifing.o
+release/moc_queries.o

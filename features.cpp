@@ -2,8 +2,10 @@
 #include "ui_features.h"
 #include <mainwindow.h>
 #include <prettifing.h>
+#include <json.h>
 #include<QMessageBox>
 #include <QTextStream>
+#include <queries.h>
 #include <QFile>
 
 Features::Features(QWidget *parent) :
@@ -46,11 +48,20 @@ void Features::on_pushButton_clicked()
 
 void Features::on_pushButton_2_clicked() //Qu
 {
-     QMessageBox::about(this, "Test","test" );
+
+     //QMessageBox::about(this, "Test","test" );
+     Queries queries ;
+     queries.setModal(true);
+     queries.exec();
+
 }
 
 
-void Features::on_pushButton_4_clicked()
+void Features::on_pushButton_4_clicked() //JSON
 {
-    QMessageBox::about(this, "Test","test" );
+    //QMessageBox::about(this, "Test","test" );
+    JSON json ;
+    json.setModal(true);
+    json.exec();
+
 }

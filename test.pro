@@ -17,25 +17,33 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     features.cpp \
+    json.cpp \
     main.cpp \
     mainwindow.cpp \
     pch.cpp \
     prettifing.cpp \
+    queries.cpp \
     xml_cutter.cpp \
+    xml_to_Json.cpp \
     xml_tree.cpp
 
 HEADERS += \
     features.h \
+    json.h \
     mainwindow.h \
     pch.h \
     prettifing.h \
+    queries.h \
     xml_cutter.h \
+    xml_to_Json.h \
     xml_tree.h
 
 FORMS += \
     features.ui \
+    json.ui \
     mainwindow.ui \
-    prettifing.ui
+    prettifing.ui \
+    queries.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

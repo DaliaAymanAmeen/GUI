@@ -16,6 +16,8 @@
 #include <prettifing.h>
 #include<vector>
 #include "xml_cutter.h"
+#include <xml_to_Json.h>
+
 
 using namespace std::chrono;
 using namespace std;
@@ -125,6 +127,44 @@ void pp(Node * k, xml_tree tree,int m ) {
 }
 
 
+
+int SetNumber(xml_tree tree,vector<Node*> &NoOFSynsets) {
+    Node* root = tree.get_root();
+    vector<Node*>tags_children = tree.get_children(root);
+    vector<Node*>synsets(0);
+
+    if (tags_children.size() == 1 && tree.get_tag(tags_children[0]) == "synsets") {
+        NoOFSynsets = tree.get_children(tags_children[0]);
+        return NoOFSynsets.size();
+    }
+    else if (tree.get_tag(root) == "synsets") {
+
+        NoOFSynsets = tree.get_children(root);
+        return NoOFSynsets.size();
+    }
+    else {
+        for (int i = 0; i < tags_children.size(); i++) {
+
+            if (tree.get_tag(tags_children[i]) == "synsets") {
+                synsets.push_back(tags_children[i]);
+
+            }
+        }
+
+
+        for (int i = 0; i < synsets.size(); i++) {
+            vector<Node*>b = tree.get_children(synsets[i]);
+
+            NoOFSynsets.insert(NoOFSynsets.end(), b.begin(), b.end());
+
+
+
+        }
+        return NoOFSynsets.size();
+    }
+
+}
+
 //to select file
 
 QString file_name;
@@ -132,14 +172,16 @@ void MainWindow::on_pushButton_2_clicked()
 {
     QString filter = "All File (*.*) ;; Text File (*.txt)  ;; XML File (*.xml) "  ;
     file_name = QFileDialog :: getOpenFileName(this,"Select a file",QDir::homePath(), filter);
-    QMessageBox::information(this, "Test",file_name );
+    QMessageBox::information(this, "File Selected",file_name );
 
 }
 
 
 
 
-
+vector<Node*>NoOFSynsets;
+int num =0 ;
+xml_tree tree;
 //run
 
 void MainWindow::on_pushButton_clicked()
@@ -147,7 +189,7 @@ void MainWindow::on_pushButton_clicked()
          string input;
         ifstream inFile;
         vector<Node *> nodes;
-        xml_tree tree;
+        //xml_tree tree;
         stack<int>tags;
         ofstream final;
         final.open("FinalOutput.txt");
@@ -248,6 +290,7 @@ void MainWindow::on_pushButton_clicked()
 
 
         //end of checking and correcting errors
+
         //start of implementing the xml tree from the xml file
         inFile.open("output1.txt");
         if (!inFile) {
@@ -325,7 +368,15 @@ void MainWindow::on_pushButton_clicked()
 
         print_all_children(root, tree, final,0);
 
-        QMessageBox::about(this, "Time taken by function", QString::number(duration.count())+" microseconds");
+        //xml_to_json(tree);
+
+
+         num = SetNumber(tree,NoOFSynsets);
+         QMessageBox::about(this, "test", QString::number(num));
+
+
+
+        //QMessageBox::about(this, "Time taken by function", QString::number(duration.count())+" microseconds");
 
         Features features ;
         features.setModal(true);

@@ -3,6 +3,7 @@
 
 #include <QDialog>
 
+
 namespace Ui {
 class Prettifing;
 }
@@ -21,5 +22,6 @@ private slots:
 private:
     Ui::Prettifing *ui;
 };
+
 
 #endif // PRETTIFING_H
