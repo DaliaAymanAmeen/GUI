@@ -40,10 +40,11 @@ Features::~Features()
 
 void Features::on_pushButton_clicked()
 {
-
+    QMessageBox::about(this, "Error Checking", "Number OF Errors: "+QString::number(num_of_errors));
     Prettifing Prettifing ;
     Prettifing.setModal(true);
     Prettifing.exec();
+
 }
 
 void Features::on_pushButton_2_clicked() //Qu

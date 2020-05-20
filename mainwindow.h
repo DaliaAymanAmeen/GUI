@@ -31,6 +31,7 @@ private:
 
 extern int num;
 extern xml_tree tree;
+extern int num_of_errors;
 int SetNumber(xml_tree tree,vector<Node*> &NoOFSynsets);
 
 #endif // MAINWINDOW_H
