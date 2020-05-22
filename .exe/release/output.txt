@@ -1,0 +1,9 @@
+<synset id="a00001740" type="a">
+<lex_filenum>
+00
+</l>
+<word lex_id="0">
+able
+<pointer refs="n05200169 n05616246">
+Attribute
+</pointer>
